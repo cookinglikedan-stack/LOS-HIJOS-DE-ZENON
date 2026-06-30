@@ -77,6 +77,7 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
 
+        /* Títulos de Grandes Secciones (Alimentos / Bebidas) */
         .section-title {
             font-family: 'Domine', serif;
             font-size: 2.2rem;
@@ -89,6 +90,7 @@
             padding-bottom: 10px;
         }
 
+        /* Títulos de Sub-categorías (Tequila, Birria, etc) */
         .category-title {
             font-family: 'Domine', serif;
             font-size: 1.5rem;
@@ -151,6 +153,13 @@
             font-size: 0.85rem;
         }
 
+        .item-notes-bold {
+            font-style: italic;
+            margin-top: 8px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+
         .variant-row {
             display: flex;
             justify-content: space-between;
@@ -196,26 +205,29 @@
             <div class="item-name">Chivo</div>
             <div class="item-price">$190</div>
         </div>
+        <p class="item-notes">Nota: Seca o Consomé. Acompañada c/Frijoles Puercos o Arroz.</p>
     </div>
     <div class="menu-item">
         <div class="item-header">
             <div class="item-name">Res</div>
             <div class="item-price">$150</div>
         </div>
+        <p class="item-notes">Nota: Seca o Consomé. Acompañada c/Frijoles Puercos o Arroz.</p>
     </div>
     <div class="menu-item">
         <div class="item-header">
             <div class="item-name">Puerco</div>
             <div class="item-price">$110</div>
         </div>
+        <p class="item-notes">Nota: Seca o Consomé. Acompañada c/Frijoles Puercos o Arroz.</p>
     </div>
     <div class="menu-item">
         <div class="item-header">
             <div class="item-name">Pollo</div>
             <div class="item-price">$100</div>
         </div>
-        <p class="item-notes">Nota: Seca o Consomé. Acompañada c/Frijoles Puercos o Arroz.</p>
     </div>
+    <p class="item-notes-bold">Nota: Seca o Consomé. Acompañada c/Frijoles Puercos o Arroz.</p>
 
     <!-- ACOMPAÑAMIENTOS -->
     <h3 class="category-title">Acompañamientos</h3>
@@ -492,7 +504,8 @@
         </div>
     </div>
     <div class="menu-item">
-        <div class="item-header">            <div class="item-name">Smirnoff</div>
+        <div class="item-header">
+            <div class="item-name">Smirnoff</div>
             <div class="item-price">$50</div>
         </div>
     </div>
